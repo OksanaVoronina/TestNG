@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sause Suite]">
+  <test thread-count="5" name="Sause Test(failed)">
+    <groups>
+      <run>
+        <include name="sprint"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.class04.sauceDemoLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginToSauceDemo" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.class04.sauceDemoLoginTest -->
+    </classes>
+  </test> <!-- Sause Test(failed) -->
+</suite> <!-- Failed suite [Sause Suite] -->

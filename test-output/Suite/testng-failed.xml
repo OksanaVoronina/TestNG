@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.AddEmployeeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addEmployeeElements"/>
+        </methods>
+      </class> <!-- com.test.AddEmployeeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="test class02(failed)">
+    <classes>
+      <class name="com.class02.Tesk2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoValidation"/>
+          <include name="setUp"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- com.class02.Tesk2 -->
+      <class name="com.class02.AssertionDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoPageElement"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.class02.AssertionDemo -->
+    </classes>
+  </test> <!-- test class02(failed) -->
+</suite> <!-- Failed suite [Suite] -->
